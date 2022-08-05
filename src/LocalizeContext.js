@@ -1,6 +1,5 @@
 // @flow
-import React from 'react';
-import createReactContext, { type Context } from 'create-react-context';
+import * as React from 'react';
 import { createSelector, type Selector } from 'reselect';
 import {
   type TranslateFunction,
@@ -100,6 +99,6 @@ export const getContextPropsFromState = (
 const defaultLocalizeState = localizeReducer(undefined, ({}: any));
 const defaultContext = getContextPropsFromState(() => {})(defaultLocalizeState);
 
-export const LocalizeContext: Context<
+export const LocalizeContext: React.Context<
   LocalizeContextProps
-> = createReactContext(defaultContext);
+> = React.createContext(defaultContext);

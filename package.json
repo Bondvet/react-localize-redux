@@ -1,5 +1,5 @@
 {
-  "name": "react-localize-redux",
+  "name": "@bondvet/react-localize-redux",
   "version": "3.5.3",
   "description": "Localization library for handling translations in React",
   "main": "./lib/index.js",
@@ -50,7 +50,7 @@
   },
   "homepage": "https://github.com/ryandrewjohnson/react-localize-redux#readme",
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -79,10 +79,10 @@
     "prettier": "1.12.1",
     "progress-bar-webpack-plugin": "^1.9.1",
     "raf": "^3.3.2",
-    "react": "^16.3.1",
+    "react": "^17.0.2",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.3.1",
-    "react-test-renderer": "^16.0.0",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
     "redux": "^3.6.0",
     "rimraf": "^2.5.4",
     "webpack": "^2.2.0-rc.2",
@@ -104,7 +104,6 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "create-react-context": "^0.2.2",
     "flat": "^2.0.1",
     "hoist-non-react-statics": "^3.0.1",
     "prop-types": "^15.6.1",
