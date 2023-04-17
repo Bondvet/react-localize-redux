@@ -1,4 +1,4 @@
-import {
+import React, {
   ReactElement,
   ReactNode,
   Component as ReactComponent,
@@ -216,8 +216,8 @@ export function TranslateChildFunction(
   context: LocalizeContextProps
 ): ReactNode;
 
-export const Translate: React.SFC<TranslateProps>;
+export const Translate: React.FunctionComponent<TranslateProps>;
 
-export class LocalizeProvider extends ReactComponent<LocalizeProviderProps> {}
+export const LocalizeProvider : ReactComponent<LocalizeProviderProps> {}
 
 export const LocalizeContext: React.Context<LocalizeContextProps>;
