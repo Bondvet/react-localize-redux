@@ -1,6 +1,6 @@
 {
   "name": "@bondvet/react-localize-redux",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Localization library for handling translations in React",
   "main": "./lib/index.js",
   "module": "./es/index.js",
