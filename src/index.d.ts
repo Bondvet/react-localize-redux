@@ -218,6 +218,6 @@ export function TranslateChildFunction(
 
 export const Translate: React.FunctionComponent<TranslateProps>;
 
-export const LocalizeProvider : ReactComponent<LocalizeProviderProps> {}
+export const LocalizeProvider : ReactComponent<LocalizeProviderProps>;
 
 export const LocalizeContext: React.Context<LocalizeContextProps>;
